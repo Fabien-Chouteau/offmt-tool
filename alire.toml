@@ -1,0 +1,18 @@
+name = "offmt_tool"
+description = "Offloaded formatting tool"
+version = "0.1.0"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
+maintainers-logins = ["Fabien-Chouteau"]
+
+executables = ["offmt_tool"]
+
+[[depends-on]]
+libadalang = "^22.0.0"
+atomic = "~0.4.1"
+ada_toml = "~0.3.0"
+cobs = "~0.1.0"
+
+[[pins]]
+cobs = { url='https://github.com/Fabien-Chouteau/COBS' }

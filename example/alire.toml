@@ -1,0 +1,15 @@
+name = "example"
+description = "Offmt example"
+version = "0.0.0"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
+maintainers-logins = ["Fabien-Chouteau"]
+
+executables = ["example"]
+
+[[depends-on]]
+offmt = "~0.0.0"
+
+[[pins]]
+offmt = { url='https://github.com/Fabien-Chouteau/offmt' }
